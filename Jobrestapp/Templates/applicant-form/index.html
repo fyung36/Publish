@@ -1,0 +1,28 @@
+{% load static %}
+
+<html>
+  <head>
+    <link href="{% static 'applicant-form/index.css'%}" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div class="navbar" style="float: left; background-color: rgb(24, 93, 131); width: 100%; border-radius: 1rem; padding: 2rem 0 2rem 0;" >
+      <div class="navbar-header">
+        <a href="/" class="navbar-home" style="font-size: 20px; margin-left: 2rem;">JOB APP</a>
+      </div>
+    </div>
+    <h1 style="font-size:30px">Application Form</h1>
+    <div class="application-form" >
+      <input id="firstname" class="form-input" placeholder="First name" type="text"/>
+      <input id="lastname" class="form-input" placeholder="Last name" type="text"/>
+      <input id="email" class="form-input" placeholder="Email" type="text"/>
+      <input id="age" class="form-input" placeholder="Age" type="number"/>
+      <input id="job_position" class="form-input" placeholder="Job Position" type="text"/>
+      <div class="submit-btn" onclick="Submit()" >
+        Submit
+      </div>
+    </div>
+  </body>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.0/axios.min.js"></script>
+  <script src="{% static 'applicant-form/index.js' %}"></script>
+</html>

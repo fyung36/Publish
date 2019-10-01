@@ -1,0 +1,176 @@
+html{
+  font-size: 10px;
+  background-color: rgb(241, 243, 245);
+}
+
+body{
+  width: 60%;
+  margin-top: 0;
+  margin-left: 20%;
+  padding: 2rem;
+  background-color: white;
+  border-left: 1px solid rgb(224, 224, 224);
+  border-right: 1px solid rgb(224, 224, 224);
+}
+
+.navbar{
+  margin-bottom: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(24, 72, 111);
+  color: white;
+  padding: 1rem 2rem 1rem 2rem;
+}
+
+.footer{
+	width: 100%;
+	background-color: rgb(24, 72, 111);
+  color: white;
+  height: 20px;
+}
+
+.footer p{
+  padding-top: 3px;
+  padding-left: 10px;
+}
+
+.navbar-header{
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.navbar-home{
+  font-size: 1.5rem;
+  font-weight: normal;
+  margin-right: 10px;
+  margin-left: 5px;
+}
+
+.navbar-contact{
+  font-size: 1.5rem;
+  font-weight: normal;
+  margin-right: 10px;
+}
+
+.navbar-home-search{
+  font-size: 1.5rem;
+  font-weight: normal;
+}
+
+.navbar a {
+	text-decoration: none;
+	color: #fff;
+}
+
+.navbar a:hover {
+	color: black;
+}
+
+.search-bar{
+  display: flex;
+  align-items: center;
+  font-size: 1.6rem;
+  float: right;
+}
+
+.search-input{
+  outline: none;
+  padding: 1rem;
+  border: 1px solid #9c9c9c;
+  border-radius: 0.5rem;
+}
+
+.search-category{
+  margin-left: 1rem;
+  height: 100%;
+}
+
+.search-button{
+  margin-left: 1rem;
+  padding: 1rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  border-radius: 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(12, 125, 88);
+  color: white;
+  cursor: pointer;
+}
+
+.add-applicant{
+  margin-left: 1rem;
+  padding: 1rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  border-radius: 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(24, 72, 111);
+  color: white;
+  width: 10rem;
+  font-size: 1.6rem;
+}
+.add-applicant2{
+  margin-left: 1rem;
+  padding: 1rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  border-radius: 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(24, 72, 111);
+  color: white;
+  width: 10rem;
+  font-size: 1.6rem;
+  float: left;
+}
+
+.list-header{
+  font-size: 1.3rem;
+  margin-top: 1rem;
+}
+
+.all-applicants{
+  margin-top: 1rem;
+}
+
+.applicant{
+  display: flex;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  background-color: rgb(221, 221, 221);
+  border: 1px solid rgb(193, 193, 193);
+  margin-bottom: 1rem;
+}
+
+
+.applicant-name{
+  font-weight: bold;
+  font-size: 1.6rem;
+}
+
+.all-jobs{
+  margin-top: 1rem;
+}
+
+.jobs{
+  display: flex;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  background-color: rgb(221, 221, 221);
+  border: 1px solid rgb(193, 193, 193);
+  margin-bottom: 1rem;
+  font-weight: bold;
+  font-size: 1.6rem;
+}
+
+.job_desc{
+  font-size: 18px;
+  margin-bottom: 2rem;
+  text-align: justify;
+}

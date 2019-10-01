@@ -1,0 +1,104 @@
+html{
+  font-size: 10px;
+  background-color: rgb(241, 243, 245);
+}
+
+body{
+  width: 60%;
+  margin-top: 0;
+  margin-left: 20%;
+  padding: 2rem;
+  background-color: white;
+  border-left: 1px solid rgb(224, 224, 224);
+  border-right: 1px solid rgb(224, 224, 224);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.navbar{
+  margin-bottom: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: left;
+  background-color: rgb(24, 72, 111);
+  color: white;
+}
+
+.footer{
+	width: 100%;
+	background-color: rgb(24, 72, 111);
+  color: white;
+  height: 20px;
+}
+
+.footer p{
+  padding-top: 3px;
+  padding-left: 10px;
+}
+
+.navbar-header{
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.navbar-home{
+  font-size: 1.5rem;
+  font-weight: normal;
+  margin-right: 10px;
+  margin-left: 5px;
+}
+
+.navbar-contact{
+  font-size: 1.5rem;
+  font-weight: normal;
+  margin-right: 10px;
+}
+
+.navbar-home-search{
+  font-size: 1.5rem;
+  font-weight: normal;
+}
+
+.navbar a {
+	text-decoration: none;
+	color: #fff;
+}
+
+.navbar a:hover {
+	color: black;
+}
+.application-form{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 60%;
+}
+
+.form-input{
+  outline: none;
+  padding: 1rem;
+  border: 1px solid #9c9c9c;
+  border-radius: 0.5rem;
+  font-size: 1.6rem;
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+.submit-btn{
+  border: 1px solid rgb(24, 93, 131);
+  color: rgb(255, 255, 255);
+  font-size: 1.8rem;
+  font-weight: bold;
+  background-color: rgb(24, 93, 131);
+  border-radius: 1rem;
+  padding: 1rem;
+  padding-left: 10rem;
+  padding-right: 10rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
