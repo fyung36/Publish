@@ -83,12 +83,12 @@ WSGI_APPLICATION = 'JobApp.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'jobappdb',
-        'USER': 'root',
-        'PASSWORD': '',
-        'HOST': '127.0.0.1',
-        'PORT': '3306',
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'd59m7pnqe3jlc5',
+        'USER': 'wwlrlfcrkobdff',
+        'PASSWORD': 'e3cc1a1c067df7f4e6dd88cdb870307305197a7eafb14147904738e58084c328',
+        'HOST': 'ec2-174-129-194-188.compute-1.amazonaws.com',
+        'PORT': '5432',
     }
 }
 
