@@ -62,7 +62,7 @@ ROOT_URLCONF = 'JobApp.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [os.path.join(BASE_DIR, 'Templates')],
+        'DIRS': [os.path.join(BASE_DIR, 'Publish/Jobrestapp/Templates')],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
